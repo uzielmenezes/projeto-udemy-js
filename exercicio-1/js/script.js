@@ -1,20 +1,14 @@
 let carro = {
-    portas: 4,
-    cor: "Vermelha",
+    portas: 4, // number
+    cor: "Vermelha", // string
     adicionais: [
-        "ar-condicionado",
+        "ar-condicionado",  // array
         "som",
         "teto solar"
     ],
-    vaiEquipado: false
+    vaiEquipado: false, // boolean
+    acelerar: () => {   // function
+        console.log("vrawnnnn");
+    }
 }
-
-let pessoa = {
-    nome: "Uziel"
-}
-
-console.log(carro.adicionais);
-console.log(carro.adicionais[0].length);
-if(carro.vaiEquipado == false) {
-    console.log("não vai equipado");
-}
+carro.acelerar();
