@@ -1,4 +1,4 @@
-let carro = {
+/*let carro = {
     nome: "BMW", // string
     portas: 4, // number
     cor: "Vermelha", // string
@@ -15,4 +15,4 @@ let carro = {
         
     }
 }
-carro.acelerar();
+carro.acelerar(); */
