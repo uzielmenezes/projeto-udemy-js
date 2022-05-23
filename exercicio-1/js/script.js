@@ -1,4 +1,5 @@
 let carro = {
+    nome: "BMW", // string
     portas: 4, // number
     cor: "Vermelha", // string
     adicionais: [
@@ -7,8 +8,11 @@ let carro = {
         "teto solar"
     ],
     vaiEquipado: false, // boolean
-    acelerar: () => {   // function
+    acelerar() {   // function
         console.log("vrawnnnn");
+    },
+    getNome() {
+        
     }
 }
 carro.acelerar();
